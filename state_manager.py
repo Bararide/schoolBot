@@ -1,0 +1,23 @@
+from aiogram.fsm.state import State, StatesGroup
+
+class Form(StatesGroup):
+    student_fullname = State()
+    lesson_view      = State()
+    language_level   = State()
+    type             = State()
+    have_account     = State()
+    not_have_account = State()
+    account          = State()
+    teacher_fullname = State()
+    set_document     = State()
+    teacher_password = State()
+    admin_fullname   = State()
+    admin_password   = State()
+    add_group        = State()
+    group_view       = State()
+    teacher          = State()
+    student          = State()
+    group_level      = State()
+    admin_card       = State()
+    set_price        = State()
+    pay_one          = State()
